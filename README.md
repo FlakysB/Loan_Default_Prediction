@@ -72,7 +72,7 @@ ROC AUC Score: 0.7319983877762655
 
 
 ### Validation set result is:
-lassification Report (resampled):
+Classification Report (resampled):
               precision    recall  f1-score   support
 
            0       0.92      0.86      0.89     33854
@@ -91,3 +91,6 @@ False Negatives: 2635
 True Positives: 1813
 
 ROC AUC Score: 0.7252125896464845
+
+#### The model and preprocessing pipeline was saved using joblib to be used during creation of the loan default web app.
+### You can view the live Streamlit app here: [Loan Default Prediction App](https://loandefaultprediction.streamlit.app/?embed_options=dark_theme)
